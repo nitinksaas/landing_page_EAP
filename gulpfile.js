@@ -8,7 +8,7 @@ const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 var merge = require('merge-stream');
 var sourcemaps = require("gulp-sourcemaps");
-
+ 
 function browserSync(done) {
     browsersync.init({
       server: {
