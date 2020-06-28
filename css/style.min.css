@@ -10576,14 +10576,14 @@ footer a:hover {
 }
 	
 .emailCl{
-  width: 25%;
-  height: 65%
+	
+	max-width:100%;
+	height:auto
 }	
 
 .logo{
   width: 200px;
   height: 65px	
-}
-	
+}	
 
 /*# sourceMappingURL=maps/style.min.css.map */
