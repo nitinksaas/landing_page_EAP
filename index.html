@@ -35,20 +35,18 @@
             </button>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#header-section">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" data-toggle="collapse" href="#header-section">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#features-section">Features</a>
+            <a class="nav-link" data-toggle="collapse" href="#features-section">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#digital-marketing-section">How it works</a>  
+            <a class="nav-link" data-toggle="collapse" href="#digital-marketing-section">How it works</a>  
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#feedback-section">Blogs</a>
+            <a class="nav-link" data-toggle="collapse" href="#feedback-section">Blogs</a>
           </li>
-          <li class="nav-item btn-contact-us pl-4 pl-lg-0">
-            <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Get Early Access</button>
-          </li>
+      
         </ul>
       </div>
     </div> 
@@ -60,14 +58,34 @@
       <h6 class="font-weight-normal text-muted pb-3">Collect feedback in one organized place, See what your users really need & Build right features that your users will love.
 
 </h6>
-<br><br>	
+<br>	
 
+  <div class="banner" >
+    <div class="container">
+      <form class="mailchimp ">
+        <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
+		<div class="emailTest">
+        <input type="email" style="border:1px solid grey" name="subscribe" id="subscriber-email" placeholder="Email me when its ready!" class="emailCl"> 
+		
+			<button type="submit"  class="btn btn-info buttonColor">Get Early Access</button>
+
+		</div>
+        <h5 class="subscription-success"></h5>
+        <label class="subscription-label" for="subscriber-email"></label>
+    </form>
+
+    </div>
+		<div class="subtitle is-8">All beta testers will get free access to the product before before public launch.<br>
+	After that, the beta testers will get 50% discount on their future purchase.</div>
+  </div>
+
+<!-- 
 <div class="emailTest1">
 	<div class="emailTest">	
-    <!-- ===== MAILCHIMP FORM STARTS ===== -->
+    <!-- ===== MAILCHIMP FORM STARTS ===== 
 	<div class="input-field col-sm-12 required"	 id="id_email_container">
     <form class="mailchimp inputSubscribeDiv">
-        <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
+        <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES
 		<div class="input-group mb-3">
         <input type="email" style="border:1px solid black" name="subscribe" id="subscriber-email" placeholder="Email me when its ready!" class="form-control emailCl"> 
 		<div class="input-group-append">
@@ -85,7 +103,7 @@
 	<div class="subtitle is-8">All beta testers will get free access to the product before before public launch.<br>
 	After that, the beta testers will get 50% discount on their future purchase.</div>
 	
-</div>
+</div> -->
 
       <img src="images/Group171.svg" alt="" class="img-fluid">
     </div>
@@ -197,7 +215,31 @@
  
       <section class="contact-us" id="contact-section">
       <!---will be seen -->
-      </section>
+	   </section>
+	  <div class="banner" >
+	   <div class="container">
+	     <h2 class="font-weight-semibold emailTest1">Join beta access program.</h2>
+	   <div class="subtitle is-8"><h6>All beta testers will get free access to the product before before public launch.<br>
+	After that, the beta testers will get 50% discount on their future purchase.<h6></div>
+   
+	
+      <form class="mailchimp ">
+        <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
+		<div class="emailTest">
+        <input type="email" style="border:1px solid grey" name="subscribe" id="subscriber-email" placeholder="Email me when its ready!" class="emailCl"> 
+		
+			<button type="submit"  class="btn btn-info buttonColor">Get Early Access</button>
+
+		</div>
+        <h5 class="subscription-success"></h5>
+        <label class="subscription-label" for="subscriber-email"></label>
+    </form>
+
+    </div>
+	
+  </div>	
+	
+   
       <section class="contact-details" id="contact-details-section">	
         <div class="row text-center text-md-left">
 		<div class="col-12 col-md-6 col-lg-3 grid-margin">
@@ -211,13 +253,6 @@
               
           </div>
 		
-          <div class="col-12 col-md-6 col-lg-3 grid-margin">
-            <h5 class="pb-2">Our Guidelines</h5>
-            <a href="#"><p class="m-0 pb-2">Terms</p></a>   
-            <a href="#" ><p class="m-0 pt-1 pb-2">Privacy policy</p></a> 
-            <a href="#"><p class="m-0 pt-1 pb-2">Cookie Policy</p></a> 
-            <a href="#"><p class="m-0 pt-1">Discover</p></a> 
-          </div>
           <div class="col-12 col-md-6 col-lg-3 grid-margin">
               <h5 class="pb-2">Follow us on</h5>
               <div class="d-flex justify-content-center justify-content-md-start">
@@ -233,31 +268,8 @@
       <footer class="border-top">
        <p class="text-center text-muted pt-4">Made with ❤ by Nitin</p>
       </footer>
-      <!-- Modal for Contact - us Button -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-
-              <h4 class="modal-title" id="exampleModalLabel">Get early access</h4>
-            </div>
-			<div class="subtitle is-8">All early adopters will get 30% discount on their future purchase.</div>
-            <div class="modal-body">
-              <form>
-           
-                <div class="form-group">
-                  <input type="email" class="form-control" id="Email-1" placeholder="Email me when its ready!">
-                </div>
-            
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-success">Get Early Access</button>
-            </div>
-          </div>
-        </div>
-      </div>
+     
+	  
     </div> 
   </div>
   <script src="vendors/jquery/jquery.min.js"></script>
@@ -267,5 +279,11 @@
   <script src="js/landingpage.js"></script>
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/mailchimp.js"></script>
+  <script>
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+		
+    </script>
 </body>
 </html>

@@ -10576,8 +10576,9 @@ footer a:hover {
 }
 	
 .emailCl{
-	max-width:100%;
-	height:auto
+	border-radius: 8px;
+	max-width:400px;
+	height:43px
 }	
 
 .logo{
@@ -10596,7 +10597,12 @@ footer a:hover {
 	max-width:100%;
 	height:auto;
 	text-align: center;
-	
+}
+
+.buttonColor{
+  background-color: #fc7341;
+  border: none;
+ 
 }
 
 /*# sourceMappingURL=maps/style.min.css.map */
