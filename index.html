@@ -66,19 +66,24 @@
 	<div class="emailTest">	
     <!-- ===== MAILCHIMP FORM STARTS ===== -->
 	<div class="input-field col-sm-12 required"	 id="id_email_container">
-    <form class="mailchimp inputSubscribeDiv input-group mb-3">
+    <form class="mailchimp inputSubscribeDiv">
         <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
-        <input type="email" name="subscribe" id="subscriber-email" maxlength="254" placeholder="Email me when its ready!" class=""> 
+		<div class="input-group mb-3">
+        <input type="email" style="border:1px solid black" name="subscribe" id="subscriber-email" placeholder="Email me when its ready!" class="form-control emailCl"> 
 		<div class="input-group-append">
-        <button type="submit"  class="btn btn-info">Get Early Access</button>
+			<button type="submit"  class="btn btn-info">Get Early Access</button>
 		</div>
-        <h5 class="subscription-success"> </h5>
+		</div>
+        <h5 class="subscription-success"></h5>
         <label class="subscription-label" for="subscriber-email"></label>
     </form>
-	<div class="subtitle is-8">All early adopters will get 30% discount on their future purchase.</div>
+	
 	
 	</div>
+	
 	</div>
+	<div class="subtitle is-8">All beta testers will get free access to the product before before public launch.<br>
+	After that, the beta testers will get 50% discount on their future purchase.</div>
 	
 </div>
 
