@@ -9876,13 +9876,13 @@ body.sidebar-open:before {
 }
 
 @media (max-width:992px) {
-	.digital-marketing-service .flex-item:first-of-type {
+	.user-feedback-tool .flex-item:first-of-type {
 		order: 2
 	}
-	.digital-marketing-service .flex-item:nth-of-type(2) {
+	.user-feedback-tool .flex-item:nth-of-type(2) {
 		order: 1
 	}
-	.digital-marketing-service .img-digital {
+	.user-feedback-tool .img-digital {
 		text-align: center
 	}
 }
