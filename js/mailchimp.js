@@ -15,7 +15,7 @@
 //Thank you for signing up! You will hear from us soon.
     function mailchimpCallback(resp) {
         if (resp.result === 'success') {
-            $('.subscription-success').html('<i class="fa fa-check"></i><br/>' + 'Thank you for signing up! We are working as hard as we can to get you onboard!').fadeIn(1000);
+            $('.subscription-success').html('<i class="fa fa-check"></i><br/>' + 'Thank you for signing up! Please check your inbox for further details.').fadeIn(1000);
             $('.subscription-error').fadeOut(500);
 			$(".mailchimp").trigger("reset");
 
