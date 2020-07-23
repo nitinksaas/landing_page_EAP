@@ -45,6 +45,7 @@
 }
 
 html {
+
 	font-family: sans-serif;
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
@@ -10008,7 +10009,7 @@ footer a:hover {
 .header-small .navbar.fixed-top {
 	top: -50px;
 	margin-top: 50px;
-	transition: margin-top 1s ease
+	transition: margin-top 0.3s ease
 }
 
 @media (min-width:992px) {
@@ -10576,9 +10577,11 @@ footer a:hover {
 }
 	
 .emailCl{
+	border:1px solid grey;
 	border-radius: 8px;
-	max-width:400px;
+	width: 230px;
 	height:43px
+	
 }	
 
 .logo{
@@ -10587,8 +10590,7 @@ footer a:hover {
 }	
 
 .emailTest{
-	max-width:100%;
-	height:auto;
+
 	display: inline-block
 	
 }
