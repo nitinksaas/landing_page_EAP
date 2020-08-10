@@ -9457,6 +9457,12 @@ button.bg-dark:hover {
 }
 
 .text-center {
+	
+	text-align: center!important
+}
+
+.text-center-test {
+	height:100px;
 	text-align: center!important
 }
 
@@ -9826,6 +9832,11 @@ body.sidebar-open:before {
 
 .banner {
 	background-color: #f7f8fa;
+	text-align: center
+}
+
+.bannerBeta {
+	
 	text-align: center
 }
 
